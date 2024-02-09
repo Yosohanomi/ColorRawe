@@ -13,6 +13,7 @@ body {
 }
 .header .container {
     display: flex;
+    padding: 30, 0;
     align-items: center;
 }
 
@@ -29,16 +30,18 @@ body {
 .nav_list {
 }
 
-.nav_list-item {
-}
-
 .nav_list-item-link {
     color: rgb(199, 199, 199);
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
     letter-spacing: 0%;
-    text-align: left;
+}
+
+.nav_list-item-link:hover,
+.nav_list-item-link:focus {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 
 .nav_list_item {
@@ -49,24 +52,73 @@ body {
 }
 
 .colorrawe {
+    background-image: url('../images/bg/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 91px;
+    padding-bottom: 183px;
 }
 
 .colorrawe_logo {
+    width: 160px;
+    height: 120px;
 }
 
 .colorrawe_logo-text {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .colorrawe_title {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .colorrawe_subtitle {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .colorrawe_text {
+    width: 508px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
 }
 
 .colorrawe_btn {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin-top: 41px;
+    border-radius: 10px;
+    background: rgb(142, 50, 198);
+    width: 254px;
+    height: 67px;
 }
 
 .info {
