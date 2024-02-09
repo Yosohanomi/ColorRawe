@@ -17,94 +17,93 @@
 <body>
 <!-- HEADER -->
     <header class="header">
+        <div>
         <a href="index.html" class="header_link">
             <img src="images/logo.png" alt="logo" class="header_logo">
         </a>
 
         <nav class="header_nav">
             <ul class="nav_list">
-                <li class="nav_list_item">
-                    <a href="index.html" class="nav_list_item-link">Main page</a>
+                <li class="nav_list-item">
+                    <a href="index.html" class="nav_list-item-link">Main page</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Benefits</a>
+                    <a href="#" class="nav_list-item-link">Benefits</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Advantages</a>
+                    <a href="#" class="nav_list-item-link">Advantages</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Reviews</a>
+                    <a href="#" class="nav_list-item-link">Reviews</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Contacts</a>
+                    <a href="#" class="nav_list-item-link">Contacts</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Order</a>
+                    <a href="#" class="nav_list-item-link">Order</a>
                 </li>
 
                 <li class="nav_list_item">
-                    <a href="#" class="nav_list_item-link">Ua Eng</a>
+                    <a href="#" class="nav_list-item-link">Ua Eng</a>
                 </li>
             </ul>
         </nav>
+    </div>
     </header>
 
 <!-- MAIN -->
-    <main>
-        <section>
-            <img src="images/logo.png" alt="logo">
-            <p>С&R</p>
-            <h1>ColorRawe</h1>
-            <h2>Your dream Nike</h2>
-            <p>On this site you can find custom Nike sneakers of your dreams. 
-                The original company caт`t create such beautiful 
-                sneakers as we do.
-                Good luck finding your way in the world of custom sneakers.</p>
-                <button type="button">Buy my Nike</button>
+    <main class="main">
+        <section class="colorrawe">
+            <img src="images/logo.png" alt="logo" class="colorrawe_logo">
+            <p class="colorrawe_logo-text">С&R</p>
+            <h1 class="colorrawe_title">ColorRawe</h1>
+            <h2 class="colorrawe_subtitle">Your dream Nike</h2>
+            <p class="colorrawe_text">On this site you can find custom Nike sneakers of your dreams. The original company caт`t create such beautiful sneakers as we do. Good luck finding your way in the world of custom sneakers.</p>
+                <button type="button" class="colorrawe_btn">Buy my Nike</button>
         </section>
 
-        <section>
-            <ul>
-                <li>
-                    <p>Premium Quality</p>
-                    <img src="images/info/star.png" alt="star">
+        <section class="info">
+            <ul class="info_list">
+                <li class="info_list-item">
+                    <p class="info_list-item-text">Premium Quality</p>
+                    <img src="images/info/star.png" alt="star" class="info_list-item-img">
                 </li>
 
-                <li>
-                    <img src="images/info/colores.png" alt="colors">
-                    <p>Indelible paint</p>
+                <li class="info_list-item">
+                    <img src="images/info/colores.png" alt="colors" class="info_list-item-img">
+                    <p class="info_list-item-text">Indelible paint</p>
                 </li>
 
-                <li>
-                    <p>Fast shipping</p>
-                    <img src="images/info/car.png" alt="van">
+                <li class="info_list-item">
+                    <p class="info_list-item-text">Fast shipping</p>
+                    <img src="images/info/car.png" alt="van" class="info_list-item-img">
                 </li>
             </ul>
         </section>
 
         <section class="reviews">
-            <h3>Reviews</h3>
-            <ul>
-                <li>
+            <h3 class="reviews_title">Reviews</h3>
+            <ul class="reviews_list">
+                <li class="reviews_list-item">
                     <p>Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
                     <p>25.11</p>
                     <p>John Teylor</p>
                     <p>With us from 2018</p>
                 </li>
 
-                <li>
+                <li class="reviews_list-item">
                     <p>I'm very happy with this color scheme. They match all my clothes.</p>
                     <p>05.01</p>
                     <p>Elizabeth Garsia</p>
                     <p>With us from 2020</p>
                 </li>
 
-                <li>
+                <li class="reviews_list-item">
                     <p>Just right if you need to go to a party. I use them actively, the paint is super.</p>
                     <p>18.06</p>
                     <p>Tom Maquare</p>
@@ -114,55 +113,55 @@
         </section>
 
         <section class="order">
-            <h3>Order</h3>
-            <form>
-                <label for="user_email">
-                    <input type="email" name="email" id="user_email" placeholder="Write your email">
+            <h3 class="order_title">Order</h3>
+            <form class="order_form">
+                <label for="user_email" class="order_form_label">
+                    <input type="email" name="email" id="user_email" placeholder="Write your email" class="order_form-control">
                 </label>
 
-                <label for="user_country">
-                    <input type="text" name="text" id="user_country" placeholder="Your Country">
+                <label for="user_country" class="order_form_label">
+                    <input type="text" name="text" id="user_country" placeholder="Your Country" class="order_form-control">
                 </label>
 
-                <label for="user_city">
-                    <input type="text" name="text" id="user_city" placeholder="Your City">
+                <label for="user_city" class="order_form_label">
+                    <input type="text" name="text" id="user_city" placeholder="Your City" class="order_form-control">
                 </label>
 
-                <label for="user_adress">
-                    <input type="text" name="text" id="user_adress" placeholder="Your Adress">
+                <label for="user_adress" class="order_form_label">
+                    <input type="text" name="text" id="user_adress" placeholder="Your Adress" class="order_form-control">
                 </label>
             </form>
-            <button type="button">Order my Nike</button>
+            <button type="button" class="order_btn">Order my Nike</button>
         </section>
     </main>
 
 <!-- FOOTER -->
-    <footer>
-        <section>
-            <ul>
-                <li>Have a question?</li>
-                <li>Have a proposal for cooperation?</li>
-                <li>Advertising questions?</li>
+    <footer class="footer">
+        <section class="footer_adress">
+            <ul class="footer_list">
+                <li class="footer_list-item">Have a question?</li>
+                <li class="footer_list-item">Have a proposal for cooperation?</li>
+                <li class="footer_list-item">Advertising questions?</li>
             </ul>
             
-            <ul>
-                <li>
-                    <a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+            <ul class="footer_adress_list">
+                <li class="footer_adress_list-item">
+                    <a href="mailto:ColoRawe_support@gmail.com" class="footer_adress_list-item-link">ColoRawe_support@gmail.com</a>
                 </li>
 
-                <li>
-                    <a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+                <li class="footer_adress_list-item">
+                    <a href="mailto:ColoRawe_Cooperation@gmail.com" class="footer_adress_list-item-link">ColoRawe_Cooperation@gmail.com</a>
                 </li>
 
-                <li>
-                    <a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+                <li class="footer_adress_list-item">
+                    <a href="mailto:ColoRawe_Advertising@gmail.com" class="footer_adress_list-item-link">ColoRawe_Advertising@gmail.com</a>
                 </li>
             </ul>
 
-            <p>2022 ColoRawe @All rights reserved</p>
-            <p>United States</p>
-            <img src="images/logo.png" alt="logo">
-            <p>С&R</p>
+            <p class="footer_text">2022 ColoRawe @All rights reserved</p>
+            <p class="footer_counrty">United States</p>
+            <img src="images/logo.png" alt="logo" class="footer_logo">
+            <p class="footer_logo-text">С&R</p>
         </section>
     </footer>
 </body>
