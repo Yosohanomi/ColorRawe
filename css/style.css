@@ -1,5 +1,5 @@
 .container {
-    width: 1200px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -126,6 +126,10 @@ body {
 /* INFO */
 .info {
     display: flex;
+    background-image: url("../images/bg/infobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 .info_list {
@@ -143,6 +147,11 @@ body {
 /* REVIEWS */
 .reviews {
     display: flex;
+    background-image: url("../images/bg/reviews.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+
 }
 
 .reviews_title {
@@ -152,6 +161,7 @@ body {
 }
 
 .reviews_list-item {
+
 }
 
 /* ORDER */
