@@ -139,6 +139,13 @@ body {
 }
 
 .info_list-item-text {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .info_list-item-img {
@@ -155,12 +162,26 @@ body {
 }
 
 .reviews_title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .reviews_list {
 }
 
 .reviews_list-item {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
 
 }
 
