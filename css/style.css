@@ -52,7 +52,7 @@ body {
 }
 
 /* COLORRAWE */
-.colorrawe {
+.hero {
     display: flex;
     background-image: url('../images/bg/mainbg.jpg');
     background-repeat: no-repeat;
@@ -61,12 +61,12 @@ body {
     padding-bottom: 183px;
 }
 
-.colorrawe_logo {
+.hero_logo {
     width: 160px;
     height: 120px;
 }
 
-.colorrawe_logo-text {
+.hero_logo-text {
     color: rgb(255, 255, 255);
     font-family: 'PT Serif', sans-serif;
     font-size: 48px;
@@ -76,7 +76,7 @@ body {
     text-align: left;
 }
 
-.colorrawe_title {
+.hero_title {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', sans-serif;
     font-size: 144px;
@@ -86,7 +86,7 @@ body {
     text-align: left;
 }
 
-.colorrawe_subtitle {
+.hero_subtitle {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', sans-serif;
     font-size: 72px;
@@ -96,7 +96,7 @@ body {
     text-align: left;
 }
 
-.colorrawe_text {
+.hero_text {
     width: 508px;
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -108,7 +108,7 @@ body {
     margin-top: 12px;
 }
 
-.colorrawe_btn {
+.hero_btn {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
