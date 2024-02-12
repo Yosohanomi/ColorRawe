@@ -2,7 +2,6 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -214,9 +213,10 @@ body {
 /* REVIEWS */
 .reviews {
     display: flex;
-    background-image: url("../images/bg/reviews.jpg");
+    background-image: url(../images/flowers.png), url("../images/bg/reviews.jpg");
+    background-position: left bottom, center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto, cover;
     height: 520px;
 
 }
