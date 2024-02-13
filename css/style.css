@@ -179,6 +179,12 @@ body {
 .info_list-item:nth-child(2) {
     margin-right: 145px;
 }
+.info_list-item:nth-child(2) {
+    border-left: 1px solid white;
+}
+.info_list-item:nth-child(3) {
+    border-left: 1px solid white;
+}
 
 .info_list-item-text {
     font-family: 'Playfair Display', sans-serif;
