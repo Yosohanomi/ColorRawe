@@ -265,7 +265,6 @@ body {
     text-align: left;
 
     color: #FFFFFF;
-
 }
 
 .reviews_item-text {
@@ -273,16 +272,22 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
 .reviews_item-data {
     color: #D8D8D8;
     font-size: 14px;
     font-weight: 400;
 }
+.reviews_item-img {
+
+}
+
 .reviews_item-name {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
 }
+
 .reviews_item-data-join {
     color: #D8D8D8;
     font-size: 12px;
