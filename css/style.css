@@ -17,25 +17,25 @@ body {
     align-items: center;
 }
 
-.header_link {
+.header__link {
     
 }
 
-.header_logo {
+.header__logo {
     height: 60px;  
     padding-right: 152px;
 }
 
-.header_nav {
+.header__nav {
 }
 
-.nav_list {
+.nav__list {
     display: flex;
     gap: 29px;
     padding-right: 73px;
 }
 
-.nav_list-item-link {
+.nav__list-item-link {
     color: rgb(199, 199, 199);
     font-size: 24px;
     font-weight: 300;
@@ -43,21 +43,21 @@ body {
     letter-spacing: 0%;
 }
 
-.nav_list-item-link:hover,
-.nav_list-item-link:focus {
+.nav__list-item-link:hover,
+.nav__list-item-link:focus {
     color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
-.nav_list_item {
+.nav__list__item {
 }
 
-.header_list {
+.header__list {
     display: flex;
     gap: 15px;
 }
 
-.header_list_item:nth-child(1) {
+.header__list__item:nth-child(1) {
     color: rgb(199, 199, 199);
     font-size: 24px;
     font-weight: 300;
@@ -65,7 +65,7 @@ body {
     letter-spacing: 0%;
 }
 
-.header_list_item:nth-child(2) {
+.header__list__item:nth-child(2) {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -73,7 +73,7 @@ body {
     letter-spacing: 0%;
 }
 
-.header_list-item-link{
+.header__list-item-link{
 
 }
 
@@ -91,13 +91,13 @@ body {
     padding-bottom: 183px;
 }
 
-.hero_logo {
+.hero__logo {
     width: 160px;
     height: 120px;
     
 }
 
-.hero_logo-text {
+.hero__logo-text {
     color: rgb(255, 255, 255);
     font-family: 'PT Serif', sans-serif;
     font-size: 48px;
@@ -109,7 +109,7 @@ body {
     
 }
 
-.hero_title {
+.hero__title {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', sans-serif;
     font-size: 144px;
@@ -119,7 +119,7 @@ body {
     text-align: left;
 }
 
-.hero_subtitle {
+.hero__subtitle {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', sans-serif;
     font-size: 72px;
@@ -129,7 +129,7 @@ body {
     text-align: left;
 }
 
-.hero_text {
+.hero__text {
     width: 508px;
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -141,7 +141,7 @@ body {
     margin-top: 12px;
 }
 
-.hero_btn {
+.hero__btn {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -167,26 +167,26 @@ body {
 
 }
 
-.info_list {
+.info__list {
     display: flex;  
     justify-content: center;
     border: 5px solid rgb(142, 50, 198);
 }
 
-.info_list-item:nth-child(1) {
+.info__list-item:nth-child(1) {
     margin-right: 145px;
 }
-.info_list-item:nth-child(2) {
+.info__list-item:nth-child(2) {
     margin-right: 145px;
 }
-.info_list-item:nth-child(2) {
+.info__list-item:nth-child(2) {
     border-left: 1px solid white;
 }
-.info_list-item:nth-child(3) {
+.info__list-item:nth-child(3) {
     border-left: 1px solid white;
 }
 
-.info_list-item-text {
+.info__list-item-text {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -195,24 +195,24 @@ body {
 
     color: #FFFFFF;
 }
-.info_list-item-text:nth-child(1) {
+.info__list-item-text:nth-child(1) {
     margin-top: 25px;
 }
-.info_list-item-text:nth-child(3) {
+.info__list-item-text:nth-child(3) {
     margin-top: 25px;
 }
 
-.info_list-item-text:nth-child(2) {
+.info__list-item-text:nth-child(2) {
     margin-top: 10px;
 }
 
-.info_list-item-img:nth-child(1) {
+.info__list-item-img:nth-child(1) {
     margin-bottom: 25px;
 }
-.info_list-item-img:nth-child(3) {
+.info__list-item-img:nth-child(3) {
     margin-bottom: 25px;
 }
-.info_list-item-img:nth-child(2) {
+.info__list-item-img:nth-child(2) {
     margin-top: 25px;
 }
 
@@ -227,7 +227,7 @@ body {
 
 }
 
-.reviews_title {
+.reviews__title {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -238,26 +238,26 @@ body {
     margin: 0px 0px 25px 24px;
 }
 
-.reviews_list {
+.reviews__list {
     display: flex;
     gap: 93px;
 }
 
-.reviews_list-item:nth-child(1) {
+.reviews__list-item:nth-child(1) {
     background-image: url(../images/reviews/blue.png);
     background-repeat:no-repeat;
     border-radius: 15px;
     box-shadow: 0px 14px 0px -5px rgb(123, 84, 179), 0px 30px 0px -13px rgb(83, 57, 120);
 }
 
-.reviews_list-item:nth-child(2) {
+.reviews__list-item:nth-child(2) {
     background-image: url(../images/reviews/pink.png);
     background-repeat:no-repeat;
     border-radius: 15px;
     box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
 }
 
-.reviews_list-item:nth-child(3) {
+.reviews__list-item:nth-child(3) {
     background-image: url(../images/reviews/red.png);
     background-repeat:no-repeat;
     background-size:auto;
@@ -265,7 +265,7 @@ body {
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 
-.reviews_list-item {
+.reviews__list-item {
     font-weight: 400;
     font-size: 36px;
     line-height: 48px;
@@ -274,28 +274,28 @@ body {
     color: #FFFFFF;
 }
 
-.reviews_item-text {
+.reviews__item-text {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
 }
 
-.reviews_item-data {
+.reviews__item-data {
     color: #D8D8D8;
     font-size: 14px;
     font-weight: 400;
 }
-.reviews_item-img {
+.reviews__item-img {
 
 }
 
-.reviews_item-name {
+.reviews__item-name {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
 }
 
-.reviews_item-data-join {
+.reviews__item-data-join {
     color: #D8D8D8;
     font-size: 12px;
     font-weight: 400;
@@ -310,7 +310,7 @@ body {
     background-size: cover;
 }
 
-.order_title {
+.order__title {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', sans-serif;
     font-size: 48px;
@@ -322,19 +322,19 @@ body {
     margin-top: 20px;
 }
 
-.order_form {
+.order__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 19px;
 }
 
-.order_form_label {
+.order__form__label {
 
 }
 
-.order_form-control:hover,
-.order_form-control:focus {
+.order__form-control:hover,
+.order__form-control:focus {
     width: 690px;
     height: 60px;
     left: 375px;
@@ -344,7 +344,7 @@ body {
 }
 
 
-.order_form-control {
+.order__form-control {
     border-radius: 50px;
     background: rgb(255, 255, 255);
 
@@ -364,7 +364,7 @@ body {
     
 }
 
-.order_btn {
+.order__btn {
     border-radius: 16px;
     background: rgb(142, 50, 198);
     width: 248px;
@@ -387,17 +387,17 @@ body {
     background: rgb(2, 22, 53);
 }
 
-.footer_adress {
+.footer__adress {
     padding-top: 45px;
 }
 
 
-.footer_list {
+.footer__list {
     display: flex;
     flex-direction: column;
 }
 
-.footer_list-item {
+.footer__list-item {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -405,15 +405,15 @@ body {
     letter-spacing: 0%;
 }
 
-.footer_adress_list {
+.footer__adress_list {
     display: flex;
     flex-direction: column;
 }
 
-.footer_adress_list-item {
+.footer__adress__list-item {
 }
 
-.footer_adress_list-item-link {
+.footer__adress__list-item-link {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -422,7 +422,7 @@ body {
     text-decoration-line: underline;
 }
 
-.footer_text {
+.footer__text {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
@@ -431,7 +431,7 @@ body {
     text-align: left;
 }
 
-.footer_counrty {
+.footer__counrty {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
@@ -441,12 +441,12 @@ body {
     margin-bottom: 50px;
 }
 
-.footer_logo {
+.footer__logo {
     width: 108px;
     height: 81px;
 }
 
-.footer_logo-text {
+.footer__logo-text {
     color: rgb(255, 255, 255);
     font-family: 'PT Serif', sans-serif;
     font-size: 24px;
