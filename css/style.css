@@ -171,10 +171,11 @@ body {
     display: flex;  
     justify-content: center;
     border: 5px solid rgb(142, 50, 198);
+    padding: 25px 0;
 }
 
 
-.info__list-item-text {
+.info__list-title {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -182,6 +183,20 @@ body {
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.info__list-item:not(:last-child) {
+    border-right: 1px solid #FFF;
+}
+
+.info__list-item:nth-child(odd) {
+    padding: 0 50px;
+}
+
+.info__list-item:nth-child(2) {
+    padding: 0 95px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /* REVIEWS */
