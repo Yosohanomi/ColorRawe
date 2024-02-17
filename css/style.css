@@ -159,7 +159,7 @@ body {
     background-size: cover;
     height: 600px;
     align-items: center;
-
+    margin-bottom: 1px;
 }
 
 .info__list {
@@ -202,7 +202,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto, cover;
     height: 520px;
-
+    margin-bottom: 1px;
 }
 
 .reviews__title {
@@ -249,11 +249,11 @@ body {
 .reviews__list-item {
     font-weight: 400;
     font-size: 36px;
-    line-height: 48px;
     text-align: left;
 
     color: #FFFFFF;
     padding-left: 13px;
+    padding-top: 49px;
 }
 
 .reviews__item-text {
@@ -266,7 +266,20 @@ body {
     color: #D8D8D8;
     font-size: 14px;
     font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 47px;
 }
+
+.reviews__div {
+    display: flex;
+    align-items: center;
+}
+
+.reviews__text-div {
+    flex-direction: column;
+    margin-left: 5px;
+}
+
 .reviews__item-img {
 }
 
