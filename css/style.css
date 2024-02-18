@@ -371,6 +371,7 @@ body {
 /* FOOTER */
 .footer {
     display: flex;
+    justify-content: center;
     background: rgb(2, 22, 53);
 }
 
@@ -464,11 +465,11 @@ body {
 
 .footer__site-info {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 
-.footer__site-info-text {
+.footer__site-info-text {   
 }
 
 .footer__logo{
