@@ -334,11 +334,9 @@ body {
     display: flex;
     justify-content: center;
     background: rgb(2, 22, 53);
-}
-
-.footer__adress {
     padding-top: 45px;
 }
+
 
 .footer__list {
     display: flex;
