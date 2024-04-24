@@ -18,6 +18,7 @@ body {
     width: 2000px;
     position: fixed;
     background: rgb(1, 45, 99);
+    scroll-behavior: smooth;
 }
 
 .header .container {
